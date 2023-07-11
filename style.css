@@ -1,0 +1,236 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Title banner section */
+.title-banner{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+.title span{
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title .btn-style{
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #222;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-style:hover{
+    transform: scale(1.1);
+}
+.btn-style i{
+    margin-left: 4px;
+}
+/* About me section */
+.details-box{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 80vh;
+    background-color: #e9faff88;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.half-width{
+    width: 40%;
+}
+.half-width .description{
+    width: 100%;
+}
+.half-width img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.half-width h2{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.half-width .myname{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.half-width p{
+    font-size: 13px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.half-width .about-list{
+    margin: 25px 15px;
+    font-size: 13px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+.half-width .btn-style{
+    border: none;
+    border-radius: 4px;
+    background-color: #51e576cf;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Contact section */
+#contact{
+    background-color: #48535530;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.half-width .meeting-text{
+    font-size: 16px;
+    margin: 20px 40px 20px 0;
+}
+form input{
+    border: none;
+    border-radius: 4px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #c3c7c7;
+    font-size: 16px;
+}
+#contact .half-width button{
+    margin-top: 30px;
+    background-color: #a5a8a8;
+}
+/* Service section */
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-text h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 0;
+}
+.service-text p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+.service-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-box .service-single-box{
+    width: 250px;
+    margin: 80px 40px;
+}
+.service-box .service-single-box img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.service-box .service-single-box h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+#services button{
+    border-radius: 4px;
+    background-color: #fff;
+    color: #222;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-bottom: 80px ;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Philosophy section */
+#philosophy{
+    display: flex;
+    flex-direction: column;
+}
+.philosophy-box{
+    display: flex;
+    justify-content: center;
+    background-color: #48535530;
+}
+.philosophy-image{
+    width: 50%;
+}
+.philosophy-image img{
+    width: 100%;
+}
+.philosophy-text{
+    width: 50%;
+    text-align: center;
+}
+.philosophy-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.philosophy-text p{
+    font-size: 14px;
+    color: #222;
+    margin: 0 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.philosophy-text button{
+    border-radius: 4px;
+    background-color: #fff;
+    color: #222;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin: 80px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* footer section */
+footer{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Lato', sans-serif;
+}
