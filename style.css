@@ -87,7 +87,7 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
 }
-.half-width .about-list{
+.half-width .about-list li{
     margin: 25px 15px;
     font-size: 13px;
     color: #333;
@@ -161,10 +161,13 @@ form input{
 }
 .service-box .service-single-box{
     width: 250px;
+    /* height: 250px; */
     margin: 80px 40px;
 }
 .service-box .service-single-box img{
-    width: 100%;
+    /* width: 100%; */
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -193,6 +196,7 @@ form input{
 .philosophy-box{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #48535530;
 }
 .philosophy-image{
@@ -200,6 +204,13 @@ form input{
 }
 .philosophy-image img{
     width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.philosophy-image .philosophy-image2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .philosophy-text{
     width: 50%;
@@ -214,6 +225,7 @@ form input{
     font-size: 14px;
     color: #222;
     margin: 0 40px;
+    text-align: justify;
     font-family: 'Open Sans', sans-serif;
 }
 .philosophy-text button{
@@ -228,9 +240,177 @@ form input{
     cursor: pointer;
     transition: 0.3s;
 }
+/* title-text section */
+#title-text{
+    height: 300px;
+    background-color: #e9faff88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title-text h1{
+    font-size: 50px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
 /* footer section */
 footer{
+    background-color: #48535530;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-box .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-box a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-box a li i{
+    margin-left: 6px;
+}
+footer p{
     text-align: center;
-    margin-top: 80px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Responsive section */
+@media (max-width:799px) {
+    .title-banner {
+        height: 70vh;
+    }
+    .title h1 {
+        font-size: 40px;
+    }
+    .title .btn-style {
+        padding: 10px 25px;
+    }
+    .details-box {
+        padding: 50px 0;
+    }
+    .half-width h2 {
+        font-size: 20px;
+    }
+    .half-width .myname {
+        margin: 12px 0;
+        font-size: 25px;
+    }
+    .half-width img {
+        width: 90%;
+    }
+    .half-width p {
+        font-size: 10px;
+    }
+    .half-width .about-list li {
+        margin: 10px 10px;
+        font-size: 10px;
+    }
+    .half-width .btn-style {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .half-width .meeting-text {
+        font-size: 11px;
+        margin: 12px 40px 12px 0;
+    }
+    form input {
+        padding: 12px;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+    #contact .half-width button {
+        margin-top: 15px;
+    }
+    .service-text h2 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .service-text p {
+        font-size: 12px;
+    }
+    .service-box .service-single-box img {
+        width: 200px;
+        height: 200px;
+    }
+    .service-box .service-single-box {
+        margin: 40px 0px;
+    }
+    #services button {
+        font-size: 12px;
+        padding: 10px 25px;
+        margin-bottom: 40px;
+    }
+    .philosophy-image img {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    .philosophy-text h2 {
+        font-size: 25px;
+        margin: 5px 0;
+    }
+    .philosophy-text p {
+        font-size: 10px;
+        margin: 0 30px;
+    }
+    .philosophy-text button {
+        font-size: 14px;
+        padding: 10px 25px;
+        margin: 10px 0;
+    }
+    #title-text {
+        height: 200px;
+    }
+    #title-text h1 {
+        font-size: 40px;
+    }
+    .navbar-box .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-box a {
+        font-size: 10px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 477px){
+    .title-banner {
+        height: 50vh;
+    }
+    .title h1 {
+        font-size: 24px;
+    }
+    .title .btn-style {
+        padding: 6px 17px;
+        font-size: 11px;
+    }
+    .half-width h2 {
+        font-size: 15px;
+    }
+    .half-width .myname {
+        font-size: 16px;
+    }
+    .service-box {
+        flex-direction: column;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
 }
