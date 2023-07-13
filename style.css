@@ -109,6 +109,10 @@ font-family: 'Roboto', sans-serif; */
 #contact{
     background-color: #48535530;
 }
+#contact .profile {
+    display: flex;
+    justify-content: center;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -345,16 +349,13 @@ footer p{
         height: 200px;
     }
     .service-box .service-single-box {
-        margin: 40px 0px;
+        margin: 25px 0px;
+        text-align: center;
     }
     #services button {
         font-size: 12px;
         padding: 10px 25px;
         margin-bottom: 40px;
-    }
-    .philosophy-image img {
-        padding-left: 16px;
-        padding-top: 16px;
     }
     .philosophy-text h2 {
         font-size: 25px;
@@ -383,6 +384,7 @@ footer p{
     }
     .navbar-box a {
         font-size: 10px;
+        margin: 2px 0;
     }
     footer p {
         font-size: 12px;
@@ -401,16 +403,127 @@ footer p{
         padding: 6px 17px;
         font-size: 11px;
     }
+    .details-box {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+    }
+    .half-width img {
+        width: 100%;
+    }
+    .half-width {
+        width: 100%;
+    }
+    .half-width .profile{
+        display: flex;
+        justify-content: center;
+    }
+    .half-width .description {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .half-width h2 {
-        font-size: 15px;
+        font-size: 21px;
+        text-align: center;
     }
     .half-width .myname {
-        font-size: 16px;
+        margin: 10px 0;
+        font-size: 25px;
+    }
+    .half-width p {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .half-width .btn-style {
+        margin-top: 20px;
+    }
+    #contact h2{
+        margin-right: 20px;
+    }
+    form {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    form input {
+        width: 80%;
+        margin-right: 20px;
+    }
+    #contact .half-width button {
+        margin: 15px 0;
+    }
+    .service-box .service-single-box img {
+        width: 150px;
+        height: 150px;
+    }
+    .service-text h2 {
+        font-size: 26px;
+        margin: 15px 0;
+    }
+    .service-text p {
+        font-size: 10px;
     }
     .service-box {
         flex-direction: column;
     }
+    .service-box .service-single-box h2 {
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .service-box .service-single-box {
+        margin: 15px 0px;
+    }
+    #services button {
+        font-size: 10px;
+        padding: 5px 15px;
+        margin-bottom: 25px;
+    }
+    .philosophy-box {
+        flex-direction: column;
+    }
+    .philosophy-image {
+        width: 100%;
+    }
+    .philosophy-text {
+        width: 95%;
+    }
+    .philosophy-image img {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .philosophy-text h2 {
+        font-size: 20px;
+    }
+    .philosophy-text p {
+        font-size: 10px;
+        margin: 0;
+    }
+    .philosophy-text button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    #title-text h1 {
+        font-size: 25px;
+    }
+    #title-text {
+        height: 150px;
+    }
+    .logo-box img {
+        width: 150px;
+    }
     .footer-box {
         flex-direction: column;
+    }
+    .navbar-box .navbar {
+        margin-bottom: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .navbar-box a {
+        margin: 2px 0;
     }
 }
