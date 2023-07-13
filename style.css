@@ -393,9 +393,6 @@ footer p{
 
 
 @media(max-width: 477px){
-    .title-banner {
-        height: 50vh;
-    }
     .title h1 {
         font-size: 24px;
     }
